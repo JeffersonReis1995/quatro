@@ -1,0 +1,33 @@
+package princiFib;
+
+import java.util.Scanner;
+
+public class quatro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		
+		double sp = 67.836;
+		double rj = 36.678;
+		double mg = 29.229;
+		double es = 27.165;
+		double outros = 19.849;
+		double total=0;  
+		
+	total=sp+rj+mg+es+outros;
+	
+	sp=sp*1/total;
+	System.out.printf("Sp tem %.2f por cento \n",sp);
+	rj=rj*1/total;
+	System.out.printf("Rj %.2f por cento \n",rj);
+	mg=mg*1/total;	
+	System.out.printf("Mg %.2f por cento \n",mg);
+	es=es*1/total;
+	System.out.printf("Es %.2f por cento \n",es);
+	outros=outros*1/total;
+	System.out.printf("outros %.2f por cento \n",outros);
+	
+	}
+
+}
